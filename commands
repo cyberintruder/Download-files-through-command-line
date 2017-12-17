@@ -1,0 +1,10 @@
+In Windows 
+
+1. using powershell command 
+
+powershell -c (new-object System.Net.WebClient).DownloadFile('http://www.google.com/robots.txt','C:\Users\Vgolle\Desktop\goo.txt')
+
+2. bitsadmin command 
+
+bitsadmin /transfer downjob /download /priority normal https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png C:\Users\Vgolle\Desktop\google.jpg
+
